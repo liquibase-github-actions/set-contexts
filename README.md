@@ -7,7 +7,7 @@ Bulk set contexts in the changelog file
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/set-contexts@v4.26.0
+- uses: liquibase-github-actions/set-contexts@v4.27.0
   with:
     # The root changelog file
     # string
@@ -101,7 +101,7 @@ The liquibase set contexts action accepts all valid liquibase global options as 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/set-contexts@v4.26.0
+  - uses: liquibase-github-actions/set-contexts@v4.27.0
     with:
       changelogFile: ""
       setAs: ""
