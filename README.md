@@ -1,8 +1,7 @@
 # Liquibase Set Contexts Action
 Official GitHub Action to run Liquibase Set Contexts in your GitHub Action Workflow. For more information on how set contexts works visit the [Official Liquibase Documentation](https://docs.liquibase.com/commands/home.html).
 ## Set Contexts
-[PRO]
-Bulk set contexts in the changelog file
+[PRO] Bulk set contexts in the changelog file
 ## Usage
 ```yaml
 steps:

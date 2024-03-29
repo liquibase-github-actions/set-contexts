@@ -12,8 +12,7 @@ service SetContextsService {
   rpc execute(SetContextsRequest) returns (Response) {}
 }
 
-/* [PRO]
-Bulk set contexts in the changelog file */
+/* [PRO] Bulk set contexts in the changelog file */
 message SetContextsRequest {
   string changelog_file = 1; // *required* The root changelog file
   optional string changeset_author = 2; // The author of the changeset to modify
