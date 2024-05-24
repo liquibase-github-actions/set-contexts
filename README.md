@@ -6,7 +6,7 @@ Official GitHub Action to run Liquibase Set Contexts in your GitHub Action Workf
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/set-contexts@v4.27.0
+- uses: liquibase-github-actions/set-contexts@v4.28.0
   with:
     # The root changelog file
     # string
@@ -100,7 +100,7 @@ The liquibase set contexts action accepts all valid liquibase global options as 
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/set-contexts@v4.27.0
+  - uses: liquibase-github-actions/set-contexts@v4.28.0
     with:
       changelogFile: ""
       setAs: ""
